@@ -71,7 +71,7 @@ class Books extends Component {
       let filteredBooks = results.data.items.map(book =>{
         let id = book.id;
         let title=book.volumeInfo.title;
-        let author=book.volumeInfo.authors[0];
+        let author=book.volumeInfo.authors[1];
         let description=book.volumeInfo.description;
         let link=book.volumeInfo.previewLink; 
         let image = "";       
